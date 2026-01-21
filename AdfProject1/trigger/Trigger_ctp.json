@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_ctp",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "ADFPipelineforBlobDataLoads1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2026-01-09T14:03:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

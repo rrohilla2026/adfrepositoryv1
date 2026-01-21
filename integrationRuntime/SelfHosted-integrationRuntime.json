@@ -1,0 +1,7 @@
+{
+	"name": "SelfHosted-integrationRuntime",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Laptop-SelfHostedIR"
+	}
+}

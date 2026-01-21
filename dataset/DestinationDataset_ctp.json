@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_ctp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSynapseAnalyticsDWHLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tblSalesData"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

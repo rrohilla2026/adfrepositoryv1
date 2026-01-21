@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_ucx",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyPipeline_gitTest",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2026-01-21T14:36:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
